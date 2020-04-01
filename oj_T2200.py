@@ -12,4 +12,6 @@ for i in A:
         if i % 2 == 1:
         oA += 1
 for i in B:
-    
+    if i % 2 == 0:
+        eB += 1
+print(n - abs(oA - eB))
