@@ -13,5 +13,5 @@ for i in A:
         oA += 1
 for i in B:
     if i % 2 == 0:
-        eB += 1
+        eB = eB + 1
 print(n - abs(oA - eB))
