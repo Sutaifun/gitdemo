@@ -9,3 +9,7 @@ B = list(map(int, input().split()))
 oA = 0
 eB = 0
 for i in A:
+        if i % 2 == 1:
+        oA += 1
+for i in B:
+    
